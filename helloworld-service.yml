@@ -9,5 +9,5 @@ spec:
     protocol: TCP
  selector
 
-   app:helloworld
+   app: helloworld
  type: LoadBalancer
