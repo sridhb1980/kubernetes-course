@@ -7,6 +7,6 @@ spec:
   - port: 80
     targetPort: nodejs-port
     protocol: TCP
- selector
+ selector:
    app: helloworld
  type: LoadBalancer
