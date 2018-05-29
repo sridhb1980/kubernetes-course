@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: nodehelloworld.example.com
+  name: nodehelloworld.kubernetes.com
   labels:
     app: helloworld
 spec:
   containers:
-  - name: k8s-demo
+  - name: kubernetes-demo
     image: sridhb/helloworld-kubernetes
     ports:
     - name: nodejs-port
